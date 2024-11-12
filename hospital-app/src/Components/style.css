@@ -1,0 +1,104 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0; /* Remove padding */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full height of the viewport */
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Tab container styles */
+.tab-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+/* Individual tab styles */
+.tab {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border: 1px solid #236e72;
+    border-radius: 5px 5px 0 0;
+    background-color: white;
+    color: #236e72;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.tab.active {
+    background-color: #236e72;
+    color: white;
+}
+
+/* Form container styles */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%; /* Full width on smaller screens */
+}
+
+/* Input fields */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+/* Error messages */
+span {
+    color: red;
+    font-size: 12px;
+}
+
+/* Button styles */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #236e72;
+    color: white;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #1d3638;
+}
+
+/* New member link */
+.new-member {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.new-member .button {
+    background-color: #236e72;
+    padding: 8px 12px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.new-member .button:hover {
+    background-color: #1d3638;
+}

@@ -1,0 +1,58 @@
+/* DoctorConsultations.css */
+
+.consultation-list {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.consultation-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.consultation-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #f9f9f9;
+}
+
+.consultation-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.consultation-box h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0 0 10px;
+}
+
+.consultation-box p {
+    margin: 5px 0;
+    color: #555;
+}
+
+.consultation-images {
+    margin-top: 10px;
+}
+
+.consultation-images h4 {
+    margin: 0;
+    font-size: 1rem;
+    color: #444;
+}
+
+.consultation-image {
+    max-width: 200px;
+    border-radius: 4px;
+    margin-top: 5px;
+}

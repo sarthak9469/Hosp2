@@ -1,0 +1,56 @@
+/* DoctorList.css */
+.doctor-list {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    display: center; 
+    flex-direction: column; 
+    align-items: center; 
+    margin: 0; 
+}
+
+.doctor-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.doctor-box {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    background-color: #f9f9f9; /* Light background for boxes */
+}
+
+.doctor-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+}
+
+.doctor-name {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 0;
+}
+
+.doctor-email, .doctor-specialization {
+    margin: 5px 0;
+    color: #555; /* Softer color for email and specialization */
+}
+
+.book-slots-btn {
+    background-color: #236e72;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.book-slots-btn:hover {
+    background-color: #1d3638;
+}
+
